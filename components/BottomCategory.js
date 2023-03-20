@@ -10,8 +10,7 @@ import {
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addItemToCart } from '../redux/Actions';
-
-
+  
 const BottomCategory = ({data}) => {
   const dispatch = useDispatch();
   const addItem = item => {
